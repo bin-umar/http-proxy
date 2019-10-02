@@ -3,7 +3,7 @@ const http = require('http');
 const server = http.createServer((req, res) => {
     console.log(req.url);
 
-    const proxyReq = http.req({
+    const proxyReq = http.request({
         port: 80,
         host: req.headers.host,
         method: req.method,
