@@ -11,7 +11,7 @@
     "http-proxy": "^1.18.0",
     "request": "^2.88.0",
     "shelljs": "^0.8.5",
-    "sqlite3": "^4.1.0"
+    "sqlite3": "^5.1.6"
   },
   "author": "",
   "license": "ISC"
